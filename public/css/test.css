@@ -1,0 +1,57 @@
+
+.data-title
+{
+    font-size: 37px;
+    color: blue;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+.data-line
+{
+    border:none;
+    border:5px double skyblue;
+
+}
+.data-tutorial
+{
+    font-size: 20px;
+    color:blue;
+    text-align: right;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+.data-define
+{
+    font-size: 15px;
+    color:blue;
+    text-align: left;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+
+.data-button
+{
+    font-size: 18px;
+    border: 1px solid skyblue;
+    border-radius: 5px;
+    text-align: center;
+    color: green;
+    margin-bottom: 30px;
+
+}
+
+.button_image
+{
+    font-size: 20px;
+    color: black;
+    margin-bottom: 50px;
+}
+
+
+
+
+.gallery_product
+{
+    margin-bottom: 80px;
+}
