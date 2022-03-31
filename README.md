@@ -18,3 +18,8 @@ node.js 추가 및
 서버 연결 후 접속 시 404 에러 수정
 파이어베이스 스토리지 추가
 
+<img width="373" alt="파이어1" src="https://user-images.githubusercontent.com/102477933/161074034-579c9997-eaf7-44b6-af64-94c66715cbb7.PNG">
+
+<img width="482" alt="파이어2" src="https://user-images.githubusercontent.com/102477933/161074049-2c8cb156-c1ab-4778-93e4-39622656cba7.PNG">
+
+<img width="482" alt="파이어2" src="https://user-images.githubusercontent.com/102477933/161074056-99217370-7b90-4280-933c-db4d7bfdf9e4.PNG">
