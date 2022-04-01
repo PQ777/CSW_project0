@@ -11,7 +11,7 @@
     ],
     "rewrites" : [{
       "source" : "**",
-      "destination" : "/public/main.html"
+      "destination" : "/main.html"
     }]
   }
 }
