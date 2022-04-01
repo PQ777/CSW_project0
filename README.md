@@ -23,3 +23,8 @@ node.js 추가 및
 <img width="482" alt="파이어2" src="https://user-images.githubusercontent.com/102477933/161074049-2c8cb156-c1ab-4778-93e4-39622656cba7.PNG">
 
 <img width="371" alt="파이어3" src="https://user-images.githubusercontent.com/102477933/161074198-72b473ae-5024-4cbd-962b-e1c2a7a4836b.PNG">
+
+22/04/02
+파이어베이스 DB 연동
+JS로 입력 후 DB실행 시 파이어베이스 실시간 데이터베이스에 실시간 연동 추가
+
