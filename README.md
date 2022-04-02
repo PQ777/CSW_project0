@@ -25,9 +25,21 @@ node.js 추가 및
 <img width="371" alt="파이어3" src="https://user-images.githubusercontent.com/102477933/161074198-72b473ae-5024-4cbd-962b-e1c2a7a4836b.PNG">
 
 22/04/02
+
 파이어베이스 DB 연동
 JS로 입력 후 DB실행 시 파이어베이스 실시간 데이터베이스에 실시간 연동 추가
 
 ![db](https://user-images.githubusercontent.com/102477933/161305099-99e3f017-66e6-49fd-b15c-df3532c037de.gif)
 
 <img width="909" alt="db2" src="https://user-images.githubusercontent.com/102477933/161305110-cebe5772-61e9-4064-bf84-5572c5c47042.PNG">
+
+
+22/04/02
+
+파이어베이스 html 사진 적용 및 html 일부 수정
+(로컬서버 실행시 사진 모두 적용 되지만
+전체 서버 실행하면 일부 사진이 미적용 되는 현상 추후 수정)
+
+
+
+
