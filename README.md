@@ -28,3 +28,6 @@ node.js 추가 및
 파이어베이스 DB 연동
 JS로 입력 후 DB실행 시 파이어베이스 실시간 데이터베이스에 실시간 연동 추가
 
+![db](https://user-images.githubusercontent.com/102477933/161305099-99e3f017-66e6-49fd-b15c-df3532c037de.gif)
+
+<img width="909" alt="db2" src="https://user-images.githubusercontent.com/102477933/161305110-cebe5772-61e9-4064-bf84-5572c5c47042.PNG">
