@@ -40,6 +40,12 @@ JS로 입력 후 DB실행 시 파이어베이스 실시간 데이터베이스에
 (로컬서버 실행시 사진 모두 적용 되지만
 전체 서버 실행하면 일부 사진이 미적용 되는 현상 추후 수정)
 
+<img width="635" alt="421" src="https://user-images.githubusercontent.com/102477933/161385258-e91744b4-6561-4b7b-bd5e-83b9a5191085.PNG">
+
+
+
+<img width="633" alt="422" src="https://user-images.githubusercontent.com/102477933/161385262-d9196918-beaa-4644-a624-d0c24d3cf070.PNG">
+
 
 22/04/04
 
