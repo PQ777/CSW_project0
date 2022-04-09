@@ -52,5 +52,6 @@ JS로 입력 후 DB실행 시 파이어베이스 실시간 데이터베이스에
 파이어베이스 RDB를 html에 읽기 추가
 (현재는 console 콘솔 형식으로만 출력)
 
+<img width="1274" alt="1" src="https://user-images.githubusercontent.com/102477933/161437598-13eab232-b886-49d7-be07-c38a3c760450.PNG">
 
 
