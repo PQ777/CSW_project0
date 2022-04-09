@@ -18,15 +18,18 @@
 
 
 
+
 <!---------------------HTML 영역--------------------->
 
 </body>
 
+
 DB 갱신
 <script>
-	firebase.database().ref('/').on('value', (snap)=>{
-		console.log(snap.val());
-	});
+
+		firebase.database().ref('/').on('value', (snap)=>{
+			console.log(snap.val());
+	}); 
 </script>
 </html>
 

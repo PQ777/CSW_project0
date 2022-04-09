@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="kor">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel = "stylesheet" href = "./public_data_air.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class = "up_title">공공데이터 Open API</h1>
+
+    <hr />
+
+    <div class = "question-box">
+        <h2 class = "title">서울 통합 실시간 공기 데이터</h2>
+        <h3>초미세먼지 현황</h3>
+        <button onclick = "q1()">업데이트</button>
+        <u1 id = "names-q1">
+
+        </u1>
+    </div>
+
+    <div class = "question-box">
+        <h3>오존 현황</h3>
+        <button onclick = "q2()">업데이트</button>
+        <u1 id = "names-q2">
+
+        </u1>
+    </div>
+
+    <div class = "question-box">
+        <h3>이산화질소 현황</h3>
+        <button onclick = "q3()">업데이트</button>
+        <u1 id = "names-q3">
+
+        </u1>
+    </div>
+
+    <div class = "question-box">
+        <h3>일산화탄소 현황</h3>
+        <button onclick = "q4()">업데이트</button>
+        <u1 id = "names-q4">
+
+        </u1>
+    </div>
+<script>
+    function q1(){
+        $.ajax({
+            type: "GET",
+            url: "http://openapi.seoul.go.kr:8088/6d4d776b466c656533356a4b4b5872/json/RealtimeCityAir/1/99",
+            data: {},
+            success: function(response){
+                $("#names-q1").empty();
+                let mise = response["RealtimeCityAir"]["row"];
+
+                for(let i =0; i < mise.length; i++){
+                    let gu_name = mise[i]["MSRSTE_NM"];
+                    let gu_mise = mise[i]["PM25"];
+                    let str_mise = ``;
+                    if(gu_mise >= 36){
+                        str_mise = `<li class = "veryhigh-color">${gu_name} : ${gu_mise}㎛</li>`;   
+                    }  
+                    else{
+                        str_mise = `<li class = "good-color">${gu_name} : ${gu_mise}㎛</li>`; 
+                    }
+                    $("#names-q1").append(str_mise);
+                }
+                console.log(response)
+            }
+        })
+    }
+</script>
+
+<script>
+    function q2(){
+        $.ajax({
+            type: "GET",
+            url: "http://openapi.seoul.go.kr:8088/6d4d776b466c656533356a4b4b5872/json/RealtimeCityAir/1/99",
+            data: {},
+            success: function(response){
+                $("#names-q2").empty();
+                let mise = response["RealtimeCityAir"]["row"];
+
+                for(let i =0; i < mise.length; i++){
+                    let gu_name = mise[i]["MSRSTE_NM"];
+                    let gu_mise = mise[i]["O3"];
+                    let str_mise = ``;
+                    if(gu_mise >= 0.091){
+                        str_mise = `<li class = "veryhigh-color">${gu_name} : ${gu_mise}ppm</li>`;   
+                    }   
+
+                    else{
+                        str_mise = `<li class = "good-color">${gu_name} : ${gu_mise}ppm</li>`; 
+                    }
+                    $("#names-q2").append(str_mise);
+                }
+                console.log(response)
+            }
+        })
+    }
+    
+</script>
+
+<script>
+    function q3(){
+        $.ajax({
+            type: "GET",
+            url: "http://openapi.seoul.go.kr:8088/6d4d776b466c656533356a4b4b5872/json/RealtimeCityAir/1/99",
+            data: {},
+            success: function(response){
+                $("#names-q3").empty();
+                let mise = response["RealtimeCityAir"]["row"];
+
+                for(let i =0; i < mise.length; i++){
+                    let gu_name = mise[i]["MSRSTE_NM"];
+                    let gu_mise = mise[i]["NO2"];
+                    let str_mise = ``;
+                    if(gu_mise >= 0.061){
+                        str_mise = `<li class = "veryhigh-color">${gu_name} : ${gu_mise}ppm</li>`;   
+                    }  
+                    else{
+                        str_mise = `<li class = "good-color">${gu_name} : ${gu_mise}ppm</li>`; 
+                    }
+                    $("#names-q3").append(str_mise);
+                }
+                console.log(response)
+            }
+        })
+    }
+</script>
+
+<script>
+    function q4(){
+        $.ajax({
+            type: "GET",
+            url: "http://openapi.seoul.go.kr:8088/6d4d776b466c656533356a4b4b5872/json/RealtimeCityAir/1/99",
+            data: {},
+            success: function(response){
+                $("#names-q4").empty();
+                let mise = response["RealtimeCityAir"]["row"];
+
+                for(let i =0; i < mise.length; i++){
+                    let gu_name = mise[i]["MSRSTE_NM"];
+                    let gu_mise = mise[i]["CO"];
+                    let str_mise = ``;
+                    if(gu_mise >= 9.1){
+                        str_mise = `<li class = "veryhigh-color">${gu_name} : ${gu_mise}ppm</li>`;   
+                    }   
+
+                    else{
+                        str_mise = `<li class = "good-color">${gu_name} : ${gu_mise}ppm</li>`; 
+                    }
+                    $("#names-q4").append(str_mise);
+                }
+                console.log(response)
+            }
+        })
+    }
+</script>
+</body>
+</html>
+
