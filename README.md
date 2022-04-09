@@ -60,3 +60,16 @@ JS로 입력 후 DB실행 시 파이어베이스 실시간 데이터베이스에
 개인로컬로 서울시 공공데이터 추출(미세먼지, 오존, 질소, 일산탄소)
 1시간 주기로 업데이트
 파이어베이스 연동은 현제 안되므로 해결방안 찾아야 가능
+
+<img width="1275" alt="1" src="https://user-images.githubusercontent.com/102477933/162562426-9b76736e-d5b8-42c7-bb60-4241665f92ef.PNG">
+<img width="693" alt="2" src="https://user-images.githubusercontent.com/102477933/162562430-c7539e0e-ea1a-4837-a9aa-892273d944f9.PNG">
+<img width="520" alt="3" src="https://user-images.githubusercontent.com/102477933/162562434-c19c0957-a10d-418a-9a76-ee211190e5bc.PNG">
+<img width="630" alt="4" src="https://user-images.githubusercontent.com/102477933/162562437-8f709ba4-b678-4294-99da-0a488d674501.PNG">
+<img width="614" alt="5" src="https://user-images.githubusercontent.com/102477933/162562441-76392e1b-d08a-4ba3-be78-031351ee79bf.PNG">
+<img width="188" alt="6" src="https://user-images.githubusercontent.com/102477933/162562444-fd48ce4b-8db2-4c32-8365-e741927862b5.PNG">
+
+위 사진들은 로컬서버로 할 시 정상 연동
+
+<img width="537" alt="7" src="https://user-images.githubusercontent.com/102477933/162562455-2286cf9b-3533-4e1e-968f-6d505b918d43.PNG">
+
+파이어베이스 연동 시 정보 추출 X
