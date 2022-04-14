@@ -13,5 +13,13 @@
       "source" : "**",
       "destination" : "/main.html"
     }]
+    // Applies a CORS header for all font files
+     "headers": [{
+       "source": "**/*.@(eot|otf|ttf|ttc|woff|font.css)",
+       "headers": [{
+         "key": "Access-Control-Allow-Origin",
+         "value": "*"
+      }]
+    }]
   }
 }
